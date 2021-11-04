@@ -6,11 +6,102 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio de Rafaella Matos</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700&display=swap"
+        rel="stylesheet">
+
+    <!--Dev Icon Fonts-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+
+    <!--Folha de estilodo projeto-->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <h1>Rafaella Matos</h1>
+    <main id="container">
+        <aside id="bio-container">
+            <h2>Rafaella Matos</h2>
 
+            <img id="bio-img" src="img/profile.jpg" alt="Rafaella Matos">
+
+            <p>
+                Olá, me chamo Rafaella Matos, sou professora da área de Tecnologia desde 2014, sempre foquei
+                no mundo acadêmico, agora quero me desafiar e entrar no mercado de trabalho. Desejo encontrar uma vaga
+                para <span class="highlight">Desenvolvedora Front End</span>.
+            </p>
+
+            <p id="welcome-text">Seja bem vind@</p>
+
+            <ul id="social-container">
+                <li><a href="https://www.linkedin.com/in/rafaella-matos/" target="_blank"></a>
+                    <ion-icon class="social-icon" name="logo-linkedin"></ion-icon>
+                </li>
+                <li><a href="https://www.instagram.com/techparamulheres/" target="_blank"></a>
+                    <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+                </li>
+            </ul>
+
+            <div id="email-container">
+                <ion-icon class="email-icon" name="mail-outline"></ion-icon>
+                <a href="mailto:rafaella.matos@gmail.com">rafaella.matos@gmail.com</a>
+            </div>
+
+        </aside>
+
+        <section id="about-container">
+            <h1 id="name">Rafaella Matos</h1>
+
+            <p id="title">
+                <span class="highlight">Desenvolvedora Front End</span>
+            </p>
+
+            <p class="description">
+                Estou me especializando em desenvolvimento web, mas também gosto de participar do <span>levantamento e
+                    especificação de requisitos.</span>
+            </p>
+
+            <a href="#" id="btn-projects">
+                <ion-icon class="share-icon" name="share-social-outline"></ion-icon>
+                <span>Ver Projetos</span>
+            </a>
+
+            <h2 id="skills-section-title">Minhas skills</h2>
+
+            <p class="description"> Tecnologias que utilizo:</p>
+
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Front End</p>
+                    <i class="devicon-html5-plain colored"></i>  
+                    <i class="devicon-css3-plain colored"></i> 
+                    <i class="devicon-javascript-plain colored"></i>  
+                </div>
+
+                <div class="skills-box">
+                    <p class="skills-title">Front End Frameworks</p>
+                    <i class="devicon-bootstrap-plain colored"></i>  
+                    <i class="devicon-vuejs-plain colored"></i>  
+                    
+                </div>
+
+                <div class="skills-box">
+                    <p class="skills-title">Database</p>
+                    <i class="devicon-postgresql-plain colored"></i>  
+                     
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!--Ion Icons-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
